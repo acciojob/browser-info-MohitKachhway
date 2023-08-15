@@ -1,6 +1,6 @@
-let p = document.getElementById("para");
+let div = document.getElementById("browser-info");
 
 let browserName = navigator.appName;
 let version = navigator.appVersion;
 
-p.innerText = `You are using ${browserName} version ${version}`
+div.innerText = `You are using ${browserName} version ${version}`
